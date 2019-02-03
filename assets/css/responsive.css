@@ -1,0 +1,46 @@
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.singal_cb_table_column_package {
+    margin-bottom: 50px;
+}
+
+
+
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	
+.singal_cb_table_column_package {
+    margin-bottom: 50px;
+}
+
+
+.cb_table_area {
+    box-shadow: none;
+}
+.singal_cb_table_column_package {
+    box-shadow: 0 5px 10px 0 rgba(29,28,28,.15);
+}
+
+
+
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.singal_cb_table_column_package {
+    margin: 0px 20px;margin-bottom: 50px;
+}
+
+
+}
+
