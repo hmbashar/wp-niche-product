@@ -1,6 +1,6 @@
 .cb_table_column_area{}
 .cb_table_column{margin-top: 100px;}
-.cb_table_area{box-shadow:0 5px 10px 0 rgba(29,28,28,.15);}
+.cb_table_area{}
 .cb_table_column_package{position: relative;}
 .cb_table_column_singal_package {
 	border-top: 51px solid #4693AA;
@@ -37,5 +37,5 @@ left:0%;border-right:66px solid transparent;border-left:66px solid transparent;b
 .cb_table_column_product_button_icon{display: inline-block;}
 .cb_table_column_product_button_icon a i{color:#fff;}
 .cb_table_column_product_button_icon i{}
-.singal_cb_table_column_package{border: 1px solid #ddd;}
-.singal_cb_table_column_package:hover{border: 1px solid #4693AA;transition: 0.5s;}
+.singal_cb_table_column_package{border: 1px solid #ddd;transition:0.5s ease-out}
+.singal_cb_table_column_package:hover{border: 1px solid #4693AA;transition: 0.5s;box-shadow: 0 5px 10px 0 rgba(29,28,28,.15);}
