@@ -18,6 +18,12 @@ modify it under the terms of the GNU General Public License
 as published by the Free Software Foundation; either version 2
 of the License, or (at your option) any later version.
 */
+/*
+*   
+*/
+// Don't call the file directly
+if ( !defined( 'ABSPATH' ) ) exit;
+
 
 define( 'WP_NICHE_PRODUCT_VERSION', '1.0' );
 define( 'WP_NICHE_PRODUCT_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );

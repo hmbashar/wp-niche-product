@@ -1,4 +1,8 @@
 <?php 
+// Don't call the file directly
+if ( !defined( 'ABSPATH' ) ) exit;
+
+
 
 function wp_niche_product_shortcode($wp_niche){ 
 	ob_start();
@@ -11,6 +15,7 @@ function wp_niche_product_shortcode($wp_niche){
     'rating'		=> 5,
     'icon'			=> 'fas fa-star',
     'column'		=> 4,
+    'link_bg_color'	=> '',
 	), $wp_niche));
 ?>
 
@@ -46,7 +51,7 @@ function wp_niche_product_shortcode($wp_niche){
 	                             </div>
 	                        </div>
 	                        <div class="cb_table_column_product_check_price"> 
-	                            <div class="cb_table_column_product_button"> 
+	                            <div class="cb_table_column_product_button" <?php if(!empty($link_bg_color)) : ?> style="background-color:<?php echo esc_attr($link_bg_color); ?>" <?php endif; ?>> 
 	                                <div class="cb_table_column_product_button_name"> 
 	                                	<?php if(!empty($link_text)) : ?>
 	                                    	<h4><a href="<?php echo esc_url($link);?>"><?php echo esc_html($link_text);?> <i class="fas fa-arrow-right"></i></a></h4>
