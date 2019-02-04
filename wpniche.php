@@ -32,8 +32,8 @@ require_once( WP_NICHE_PRODUCT_PLUGIN_DIR . 'inc/shortcodes.php' );
 
 function wp_niche_product_enqueues() {
 
-    wp_enqueue_style( 'font-awesome-5', '//use.fontawesome.com/releases/v5.7.1/css/all.css', NULL, WP_NICHE_PRODUCT_VERSION);
-    wp_enqueue_style( 'bootstrap-grid', plugins_url('/assets/css/bootstrap-grid.min.css', __FILE__), NULL, WP_NICHE_PRODUCT_VERSION);
+    wp_enqueue_style( 'font-awesome-5', '//use.fontawesome.com/releases/v5.7.1/css/all.css', NULL, WP_NICHE_PRODUCT_VERSION);    
+   	wp_enqueue_style( 'bootstrap-grid', plugins_url('/assets/css/bootstrap-grid.min.css', __FILE__), NULL, WP_NICHE_PRODUCT_VERSION);
 	wp_enqueue_style( 'wp-niche-style', plugins_url('/assets/css/wp-niche-style.css', __FILE__), NULL, WP_NICHE_PRODUCT_VERSION);
 	wp_enqueue_style( 'wp-niche-responsive-style', plugins_url('/assets/css/responsive.css', __FILE__), NULL, WP_NICHE_PRODUCT_VERSION);
 }

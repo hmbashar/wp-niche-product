@@ -20,7 +20,7 @@ function wp_niche_product_shortcode($wp_niche){
 ?>
 
                <!--singal section one -->
-                    <div class="col-xl-<?php echo esc_attr($column);?> col-md-6 col-12">
+                    <div class="col-xl-<?php echo esc_attr($column);?> col-md-6 col-12 m-0 p-0">
                         <div class="singal_cb_table_column_package"> 
                             <div class="cb_table_column_package"> 
                                 <div class="cb_table_column_singal_package"> </div>
@@ -73,10 +73,7 @@ function wp_niche_products_row($atts, $content = null){
 ?>
 
 		<section class="cb_table_column_area clearfix"> 
-		    <div class="cb_table_column">	
-	
-		    		
-		    	        
+		    <div class="cb_table_column">		    	        
 	            <div class="cb_table_area">
 	               <div class="row">
 	        			<?php if(!empty($content)) {
@@ -84,8 +81,7 @@ function wp_niche_products_row($atts, $content = null){
 	        				}
 	        			?>
 	                </div>               
-	            </div> 	
-
+	            </div> 
 		    </div>
 		</section>
 
