@@ -23,7 +23,6 @@ This product for show recommended product to compare for your niche site. You ca
 
 <a href="http://www.codingbank.com/plugins/wp-niche-products">Demo Here</a>
 
-You’re Welcome to <a href="https://github.com/hmbashar/wp-niche-product">Github Project</a>
 
 ### Shortcode for Row 
 **Product Row**
