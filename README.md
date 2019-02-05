@@ -2,8 +2,9 @@
 
 [Download from WordPress Directory](https://wordpress.org/plugins/wp-niche-products/)
 
-=== WP Niche Products ===
-Contributors: hmbashar
+# WP Niche Products
+
+```Contributors: hmbashar
 Tags: Recommended Product, Featured Product, Best Product, Niche site product, niche site product review, product review for niche site, niche site plugin
 Requires at least: 3.0
 Tested up to: 5.0.3
@@ -11,6 +12,7 @@ Stable tag: 4.3
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
+```
 
 This product for show recommended product to compare for your niche site. You can recommend any product in your niche site article using this plugin, Shortcode for product area wraper  [wp_niche_row]Content Here [/wp_niche_row] and [wp_niche_product] for single product
 
@@ -91,5 +93,5 @@ e.g.
 
 ### Changelog 
 
-= 1.0 =
+#### 1.0
 * Init Version
