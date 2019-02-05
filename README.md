@@ -4,7 +4,8 @@
 
 # WP Niche Products
 
-```Contributors: hmbashar
+```
+Contributors: hmbashar
 Tags: Recommended Product, Featured Product, Best Product, Niche site product, niche site product review, product review for niche site, niche site plugin
 Requires at least: 3.0
 Tested up to: 5.0.3
