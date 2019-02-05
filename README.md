@@ -25,10 +25,10 @@ This product for show recommended product to compare for your niche site. You ca
 
 
 ### Shortcode for Row 
-	**[wp_niche_row]**  Content Here **[/wp_niche_row]**
+	[wp_niche_row]  Content Here [/wp_niche_row]
 
 ### Single Product
-	**[wp_niche_product]**
+	[wp_niche_product]
 
 
 ### Product column 
