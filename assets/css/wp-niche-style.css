@@ -45,3 +45,10 @@ left:0%;border-right:66px solid transparent;border-left:66px solid transparent;b
 .cb_table_column_product_button_icon i{}
 .singal_cb_table_column_package{border: 1px solid #ddd;transition:0.5s ease-out;min-width: 182px;margin: 10px;margin-bottom: 30px;}
 .singal_cb_table_column_package:hover{border: 1px solid #4693AA;transition: 0.5s;box-shadow: 0 5px 10px 0 rgba(29,28,28,.15);}
+.singal_niche_hover_product img:hover{}
+
+.niche_product_logo_show{}
+.niche_product_hover{display: none;width: 300px;margin: 0 auto;}
+.niche_product-img:hover .niche_product_hover{display: block;}
+.niche_product_hover h3{margin-top: 20px;color: red;font-weight: bold;}
+.niche_product_hover img{margin-top: -77px;}

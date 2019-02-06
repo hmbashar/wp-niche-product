@@ -90,3 +90,32 @@ function wp_niche_products_row($atts, $content = null){
 	}
 add_shortcode( 'wp_niche_row', 'wp_niche_products_row');
 		
+function wp_niche_product_str($the_wp_niche){ 
+	ob_start();
+	extract(shortcode_atts(array( 
+	'link'			=> '',
+   	'img_url'		=> '',
+   	'hover_img_url'=> '',
+	), $the_wp_niche));
+?>		
+		<section class="niche_product_img_hover"> 
+			<div class="niche_product-img"> 
+				<div class="singal_niche_hover_product"> 
+					<img src="<?php echo esc_url($img_url)?>" alt="">
+				</div>
+				<div class="niche_product_logo_show"> 
+					<div class="niche_product_hover"> 
+						<h3> Best offer for towday</h3>
+						<img src="<?php echo esc_url($hover_img_url)?>" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+
+               
+
+	<?php
+	return ob_get_clean();
+	}
+add_shortcode( 'wp_niche_product', 'wp_niche_product_str');
+		
