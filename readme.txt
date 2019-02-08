@@ -119,6 +119,8 @@ Answer to foo bar dilemma.
 
 1. First screenshot.
 2. This is the second screen shot
+3. Single Product Image design Normal
+4. Single Product Image design Hover
 
 == Changelog ==
 

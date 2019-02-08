@@ -109,6 +109,13 @@ e.g.
 1. (Make your instructions match the desired user flow for activating and installing your plugin. Include any steps that might be needed for explanatory purposes)
 
 
+## Screenshots
+1. First screenshot.
+![alt text](https://ps.w.org/wp-niche-products/assets/screenshot-1.png?rev=2024972)
+
+2. This is the second screenshot
+![alt text](https://ps.w.org/wp-niche-products/assets/screenshot-1.png?rev=2024972)
+
 ### Changelog 
 
 #### 1.0
