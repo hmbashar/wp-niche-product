@@ -89,4 +89,3 @@ function wp_niche_products_row($atts, $content = null){
 	return ob_get_clean();
 	}
 add_shortcode( 'wp_niche_row', 'wp_niche_products_row');
-		
