@@ -113,3 +113,6 @@ e.g.
 
 #### 1.0
 * Init Version
+
+#### 1.0.1
+* New Design Added
