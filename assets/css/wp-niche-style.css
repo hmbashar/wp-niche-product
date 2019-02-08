@@ -54,21 +54,8 @@ left:0%;border-right:66px solid transparent;border-left:66px solid transparent;b
 .niche_product-img:hover .singal_niche_hover_product img{opacity: 0.1;}
 .niche_product-img:hover .niche_product_hover{display: block;}
 .niche_product_logo_show:hover.singal_niche_hover_product img{opacity: 0.1;}
-.niche_product_hover a{font-weight: bold;
-
-font-size: 13px;
-
-background: #2980b9;
-
-color: #fff !important;
-
-padding: 10px 20px;
-
-border-radius: 48px;
-
-margin-top: 10px;
-
-display: inline-block;}
+.niche_product_hover a{font-weight: bold;font-size: 13px;background: #2980b9;color: #fff !important;padding: 10px 20px;border-radius: 48px;
+margin-top: 10px;display: inline-block;text-decoration: none;}
 .niche_product_hover img{width: 150px;display: block;overflow: hidden;margin: 0 auto;}
 .single_title_product{margin-bottom: 15px;}
 .single_title_product h2{}

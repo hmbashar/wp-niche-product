@@ -95,18 +95,16 @@ function wp_niche_single_product($wp_nsp){
 	extract(shortcode_atts(array( 
 	'link'						=> '#',
 	'link_text'					=> __('See More Images','wp_niche'),
-	'niche_product_single_title'=>__('This is your single niche product images'),
+	'nsp_title'					=>__('This is your single niche product'),
    	'img_url'					=> '',
-   	'img_hover_url'				=> '',
+   	'img_hover_url'				=> plugin_dir_url( dirname( __FILE__ ) ) . 'assets/images/Amazon-Logo.png',
 	), $wp_nsp));
 ?>		
 		<section class="niche_product_img_hover">
 			<div class="niche_product_single_title"> 
 				<div class="single_title_product">
-					<?php if(!empty($niche_product_single_title)) : ?>
-						<h2><?php echo esc_html($niche_product_single_title); ?></h2>
-					<?php else : ?>
-						<h2><?php echo esc_html($niche_product_single_title); ?></h2>
+					<?php if(!empty($nsp_title)) : ?>
+						<h2><?php echo esc_html($nsp_title); ?></h2>
 					<?php endif; ?>
 				</div>
 			</div> 
@@ -118,14 +116,15 @@ function wp_niche_single_product($wp_nsp){
 				</div>
 				<div class="niche_product_logo_show"> 
 					<div class="niche_product_hover"> 
-					<?php  if (!empty($img_hover_url)) :    ?>
-						<img src="<?php echo esc_url($img_hover_url)?>" alt="">
-					<?php else :?>
-						<img src="<?php echo plugin_dir_url( dirname( __FILE__ ) ) . 'assets/images/Amazon-Logo.png'; ?>" alt="">
-					<?php endif; ?>
-					<?php if(!empty($link_text)) : ?>
-						<a herf="<?php echo esc_url($link); ?>" class="niche_single_product_more"><?php echo esc_html($link_text); ?></a>
-					<?php endif; ?>
+
+						<?php  if (!empty($img_hover_url)) :    ?>
+							<img src="<?php echo esc_url($img_hover_url)?>" alt="">
+						<?php endif; ?>
+
+						<?php if(!empty($link_text)) : ?>
+							<a href="<?php echo esc_url($link); ?>" class="niche_single_product_more"><?php echo esc_html($link_text); ?></a>
+						<?php endif; ?>
+
 					</div>
 				</div>
 			</div>
@@ -134,4 +133,4 @@ function wp_niche_single_product($wp_nsp){
 	<?php
 	return ob_get_clean();
 	}
-add_shortcode( 'wpn_single_product', 'wp_niche_single_product');
+add_shortcode( 'wpns_product', 'wp_niche_single_product');
