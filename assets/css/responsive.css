@@ -26,7 +26,23 @@
 .singal_cb_table_column_package {
     box-shadow: 0 5px 10px 0 rgba(29,28,28,.15);
 }
-
+.niche_product_hover img {
+    width: 70px;
+    margin: 0 auto;
+}
+.niche_product_hover a {
+    font-size: 10px;
+    padding: 5px 10px;
+    margin-top: 6px;
+}
+.niche_product_hover {
+    top: 33%;
+    left: 0;
+    right: 0;
+}
+.single_title_product h2 {
+    font-size: 16px;
+}
 
 
 }
@@ -40,7 +56,10 @@
 .singal_cb_table_column_package {
     margin: 0px 20px;margin-bottom: 50px;
 }
-
+.niche_product_hover {
+    top: 33%;
+  
+}
 
 }
 
