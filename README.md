@@ -110,21 +110,23 @@ e.g.
 
 
 ## Screenshots
-1. Banner.
+
+#### 1. Banner
 ![alt text](https://raw.githubusercontent.com/hmbashar/wp-niche-product/master/assets/images/banner-772x250.png)
 
-2. First screenshot.
+#### 2. First screenshot
 ![alt text](https://raw.githubusercontent.com/hmbashar/wp-niche-product/master/assets/images/screenshot-1.png)
 
-3. This is the second screenshot
+#### 3. This is the second screenshot
 ![alt text](https://raw.githubusercontent.com/hmbashar/wp-niche-product/master/assets/images/screenshot-2.png)
 
 
-4. Single Product Image design Normal
+#### 4. Single Product Image design Normal
 ![alt text](https://raw.githubusercontent.com/hmbashar/wp-niche-product/master/assets/images/screenshot-3.png)
 
-5. Single Product Image design Hover
+#### 5. Single Product Image design Hover
 ![alt text](https://raw.githubusercontent.com/hmbashar/wp-niche-product/master/assets/images/screenshot-4.png)
+
 
 ### Changelog 
 
