@@ -23,7 +23,7 @@ You’re Welcome to <a href="https://github.com/hmbashar/wp-niche-product">Githu
 **Product Row**
 	**[wp_niche_row]**  Content Here **[/wp_niche_row]**
 
-**Single Product**
+**Single Column Product**
 	**[wp_niche_product]**
 
 

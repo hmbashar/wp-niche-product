@@ -27,7 +27,7 @@ This product for show recommended product to compare for your niche site. You ca
 ### Shortcode for Row 
 	[wp_niche_row]  Content Here [/wp_niche_row]
 
-### Single Product
+### Single Column Product
 	[wp_niche_product]
 
 
@@ -57,6 +57,26 @@ This product for show recommended product to compare for your niche site. You ca
 
 [/wp_niche_row]
 </pre>
+
+### Single Design Image Product
+	[wpns_product]
+
+
+### Single Design Image Product 
+
+* Attributes Support
+	**[wpns_product]** for single image product
+	* **nsp_title** for Product Title
+	* **img_url** for product image
+	* **link_text** for Link text
+	* **link** for product url
+	* **img_hover_url** for Hover Image (Amazon image)
+
+
+### Example Code for image product 
+<pre>[wpns_product nsp_title="Lorem Ipsume title here" link_text="Learn More" img_url="http://localhost/test/wp-content/uploads/2019/02/Slide1.png"]</pre>
+
+
 
 
 * **Note:** *If your theme used bootstrap 3 then it may conflict with this plugin, But I'm not sure, If you face any issue with this plugin, <a href="https://github.com/hmbashar/wp-niche-product/issues">please let me know</a>, I will be trying to fix it.*
