@@ -110,11 +110,21 @@ e.g.
 
 
 ## Screenshots
-1. First screenshot.
-![alt text](https://ps.w.org/wp-niche-products/assets/screenshot-1.png?rev=2024972)
+1. Banner.
+![alt text](https://raw.githubusercontent.com/hmbashar/wp-niche-product/master/assets/images/banner-772x250.png)
 
-2. This is the second screenshot
-![alt text](https://ps.w.org/wp-niche-products/assets/screenshot-1.png?rev=2024972)
+2. First screenshot.
+![alt text](https://raw.githubusercontent.com/hmbashar/wp-niche-product/master/assets/images/screenshot-1.png)
+
+3. This is the second screenshot
+![alt text](https://raw.githubusercontent.com/hmbashar/wp-niche-product/master/assets/images/screenshot-2.png)
+
+
+4. Single Product Image design Normal
+![alt text](https://raw.githubusercontent.com/hmbashar/wp-niche-product/master/assets/images/screenshot-3.png)
+
+5. Single Product Image design Hover
+![alt text](https://raw.githubusercontent.com/hmbashar/wp-niche-product/master/assets/images/screenshot-4.png)
 
 ### Changelog 
 
