@@ -90,3 +90,51 @@ function wp_niche_products_row($atts, $content = null){
 	}
 add_shortcode( 'wp_niche_row', 'wp_niche_products_row');
 		
+function wp_niche_single_product($wp_nsp){ 
+	ob_start();
+	extract(shortcode_atts(array( 
+	'link'				=> '#',
+	'link_text'			=> __('See More Images','wp_niche'),
+   	'img_url'			=> '',
+   	'img_hover_url'		=> '',
+	), $wp_nsp));
+?>		
+		<section class="niche_product_img_hover"> 
+			<div class="niche_product-img"> 
+				<div class="singal_niche_hover_product"> 
+
+					<?php  if (!empty($img_url)) :    ?>
+						<img src="<?php echo esc_url($img_url)?>" alt="">
+					<?php endif; ?>
+
+
+				</div>
+
+
+				<div class="niche_product_logo_show"> 
+					<div class="niche_product_hover"> 
+
+					<?php  if (!empty($img_hover_url)) :    ?>
+
+						<img src="<?php echo esc_url($img_hover_url)?>" alt="">
+					<?php else :?>
+						<img src="<?php echo plugin_dir_url( dirname( __FILE__ ) ) . 'assets/images/Amazon-Logo.png'; ?>" alt="">
+					<?php endif; ?>
+
+					<?php if(!empty($link_text)) : ?>
+						<a herf="<?php echo esc_url($link); ?>" class="niche_single_product_more"><?php echo esc_html($link_text); ?></a>
+					<?php endif; ?>
+					
+					</div>
+				</div>
+			</div>
+		</section>
+
+               
+
+	<?php
+	return ob_get_clean();
+	}
+add_shortcode( 'wpn_single_product', 'wp_niche_single_product');
+
+
