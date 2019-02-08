@@ -89,7 +89,7 @@ function wp_niche_products_row($atts, $content = null){
 add_shortcode( 'wp_niche_row', 'wp_niche_products_row');
 
 
-// Nich Single Design Product
+// Niche Single Design Product
 function wp_niche_single_product($wp_nsp){ 
 	ob_start();
 	extract(shortcode_atts(array( 
