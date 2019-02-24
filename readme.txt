@@ -2,7 +2,7 @@
 Contributors: hmbashar
 Tags: Recommended Product, Featured Product, Best Product, Niche site product, niche site product review, product review for niche site, niche site plugin
 Requires at least: 3.0
-Tested up to: 5.0.3
+Tested up to: 5.1
 Stable tag: 4.3
 Requires PHP: 5.2.4
 License: GPLv2 or later
