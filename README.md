@@ -84,6 +84,7 @@ This product for show recommended product to compare for your niche site. You ca
 
 ### How to use Video 
 https://youtu.be/woV3Dja5Obc
+https://youtu.be/D5vmmAwsiWc
 
 ### Features 
 * Show Product

@@ -80,6 +80,7 @@ You’re Welcome to <a href="https://github.com/hmbashar/wp-niche-product">Githu
 
 = How to use Video = 
 https://youtu.be/woV3Dja5Obc
+https://youtu.be/D5vmmAwsiWc
 
 = Features = 
 * Show Product
